@@ -1,5 +1,5 @@
 import logo from "../images/image-jeremy.png";
-import * as React from "react-dom";
+
 
 export const NavBar = () => {
     return(
@@ -17,9 +17,9 @@ export const NavBar = () => {
                 </div>
             </div>
             <div className="container flex flex-row justify-between items-center">
-                <h3 className="text-indigo-400 pl-5 py-4 hover:bg-indigo-500">oops</h3>
-                <h3 className="py-4 hover:bg-indigo-500">oops</h3>
-                <h3 className="py-4 text-indigo-400 pr-5 hover:bg-indigo-500">oops</h3>
+                <h3 className="text-indigo-400 pl-5 py-4 hover:bg-indigo-500">Daily</h3>
+                <h3 className="py-4 hover:bg-indigo-500">Weekly</h3>
+                <h3 className="py-4 text-indigo-400 pr-5 hover:bg-indigo-500">Monthly</h3>
             </div>
         </nav>
     );
