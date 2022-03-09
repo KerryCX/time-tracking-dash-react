@@ -1,6 +1,6 @@
 export const StudySlide = () => {
     return(
-        <div className="container  flex flex-col-reverse bg-pink-400 border-0 border-solid rounded-lg h-36 mt-2">
+        <div className="container  flex flex-col-reverse bg-pink-400 border-0 border-solid rounded-lg h-36">
             <div
                 className="container items-center flex flex-row box-border bg-indigo-900 border-0 border-solid
                 rounded-lg h-3/4">
