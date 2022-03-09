@@ -3,8 +3,8 @@ import logo from "../images/image-jeremy.png";
 
 export const NavBar = () => {
     return(
-        <nav className="container box-border bg-indigo-900 box-border border-0 border-solid rounded-lg h-40">
-            <div className="container bg-indigo-500 h-4/6 border-0 border-solid rounded-lg flex flex-row py-4
+        <nav className="container box-border bg-indigo-900 box-border border-0 border-solid rounded-lg">
+            <div className="container bg-indigo-500 border-0 border-solid rounded-lg flex flex-row py-4
                   items-center justify-center">
                 <img src={logo} alt="JR" className="rounded-full h-14 w-14 border-solid
                       border-2 border-white"/>
