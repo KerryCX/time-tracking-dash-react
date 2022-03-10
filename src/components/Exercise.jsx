@@ -2,7 +2,7 @@ export const ExerciseSlide = () => {
     return(
         <div
             className="container  flex flex-col-reverse box-border bg-green-200 border-0 border-solid
-            rounded-lg h-36 mt-2">
+            rounded-lg h-36 md:h-full">
             <div
                 className="container items-center flex flex-row box-border bg-indigo-900 border-0
                 border-solid rounded-lg h-3/4">

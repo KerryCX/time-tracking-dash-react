@@ -1,7 +1,8 @@
 export const SelfCareSlide = () => {
     return(
         <div
-            className="container box-border flex flex-col-reverse bg-yellow-300 border-0 border-solid rounded-lg h-36 mt-2">
+            className="container box-border flex flex-col-reverse bg-yellow-300 border-0 border-solid 
+            rounded-lg h-36 md:h-full">
             <div
                 className="container items-center flex flex-row box-border bg-indigo-900 border-0 border-solid rounded-lg h-3/4">
                 <div className="container flex flex-col">
