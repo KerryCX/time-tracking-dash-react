@@ -10,8 +10,8 @@ import {SelfCareSlide} from "./components/SelfCare";
 
 function App() {
   return (
-      <div className="bg-black">
-          <main className="container box-border w-10/12 h-full mx-auto grid grid-cols-1 
+      <div className="bg-black h-screen">
+          <main className="container box-border w-10/12 h-3/4 mx-auto grid grid-cols-1 
           gap-4 gap-y-4 text-white font-mono font-normal pt-8 md:grid-cols-4">
               <div className="md:row-span-2"><NavBar/></div>
               <WorkSlide/>
@@ -21,8 +21,6 @@ function App() {
               <SocialSlide/>
               <SelfCareSlide/>
           </main>
-          <div className="attribution">Coded by KerryCX
-          </div>
       </div>
   );
 }
