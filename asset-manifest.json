@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/time-tracking-dash-react/static/css/main.11fb7c00.css",
-    "main.js": "/time-tracking-dash-react/static/js/main.e30f15ac.js",
+    "main.css": "/time-tracking-dash-react/static/css/main.dbdc5b3f.css",
+    "main.js": "/time-tracking-dash-react/static/js/main.ee6214d1.js",
     "static/js/787.a544a4c6.chunk.js": "/time-tracking-dash-react/static/js/787.a544a4c6.chunk.js",
     "static/media/image-jeremy.png": "/time-tracking-dash-react/static/media/image-jeremy.71cd41f11bee24c1ded3.png",
     "index.html": "/time-tracking-dash-react/index.html",
-    "main.11fb7c00.css.map": "/time-tracking-dash-react/static/css/main.11fb7c00.css.map",
-    "main.e30f15ac.js.map": "/time-tracking-dash-react/static/js/main.e30f15ac.js.map",
+    "main.dbdc5b3f.css.map": "/time-tracking-dash-react/static/css/main.dbdc5b3f.css.map",
+    "main.ee6214d1.js.map": "/time-tracking-dash-react/static/js/main.ee6214d1.js.map",
     "787.a544a4c6.chunk.js.map": "/time-tracking-dash-react/static/js/787.a544a4c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11fb7c00.css",
-    "static/js/main.e30f15ac.js"
+    "static/css/main.dbdc5b3f.css",
+    "static/js/main.ee6214d1.js"
   ]
 }
