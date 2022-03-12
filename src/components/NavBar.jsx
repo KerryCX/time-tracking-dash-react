@@ -16,10 +16,10 @@ export const NavBar = () => {
                     </div>
                 </div>
             </div>
-            <div className="container text-xs grid grid-rows-1 grid-cols-3 justify-between items-center md:grid-cols-1 md:grid-rows-3 pt-4">
-                <h3 className="md:py-1 pl-5 text-indigo-400 hover:bg-indigo-500">Daily</h3>
-                <h3 className="md:py-1 pl-5 hover:bg-indigo-500">Weekly</h3>
-                <h3 className="md:py-1 pl-5 pr-5 text-indigo-400 hover:bg-indigo-500">Monthly</h3>
+            <div className="container text-xs grid grid-rows-1 grid-cols-3 md:grid-cols-1 md:grid-rows-3 pt-4">
+                <h3 className="text-centre md:py-1 pl-5 mr-5 text-indigo-400 cursor-pointer hover:bg-indigo-500">Daily</h3>
+                <h3 className="text-centre md:py-1 pl-5 pr-5 cursor-pointer hover:bg-indigo-500">Weekly</h3>
+                <h3 className="text-centre md:py-1 pl-5 cursor-pointer pr-5 text-indigo-400 hover:bg-indigo-500">Monthly</h3>
             </div>
         </nav>
     );
