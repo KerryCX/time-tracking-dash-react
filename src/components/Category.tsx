@@ -22,9 +22,12 @@ export const Category = ({ activity, timeframe }: CategoryProps) => {
           <h3 className='text-sm md:text-xs pl-4 pt-0 md:pt-6 md:col-span-2'>
             {title}
           </h3>
-          <div className='md:pt-4 pt-0 pr-4 text-sm text-right cursor-pointer'>
+          <button
+            aria-label={`More options for ${title}`}
+            className='md:pt-4 pt-0 pr-4 text-sm text-right cursor-pointer hover:text-indigo-300'
+          >
             ...
-          </div>
+          </button>
           <div className='pt-0 pl-4 text-3xl md:text-4xl md:pt-1 md:col-span-3'>
             {current}hrs
           </div>

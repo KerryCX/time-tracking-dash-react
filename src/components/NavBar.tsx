@@ -29,14 +29,15 @@ export const NavBar = ({ timeframe, onTimeFrameChange }: NavBarProps) => {
         </div>
       </div>
       <div className='container text-xs grid grid-rows-1 grid-cols-3 md:grid-cols-1 md:grid-rows-3 pt-4'>
-        {timeframes.map((tf) => (
+        {timeframes.map((timeFrame) => (
           <button
-            key={tf}
-            onClick={() => onTimeFrameChange(tf)}
+            key={timeFrame}
+            onClick={() => onTimeFrameChange(timeFrame)}
+            aria-pressed={timeframe === timeFrame}
             className={`capitalize md:py-1 pl-5 pr-5 text-left cursor-pointer hover:text-white
-              ${timeframe === tf ? "text-white" : "text-indigo-400"}`}
+    ${timeframe === timeFrame ? "text-white" : "text-indigo-400"}`}
           >
-            {tf}
+            {timeFrame}
           </button>
         ))}
       </div>
