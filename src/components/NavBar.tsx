@@ -12,7 +12,7 @@ export const NavBar = ({ timeframe, onTimeFrameChange }: NavBarProps) => {
   return (
     <nav className='container box-border bg-indigo-900 border-0 border-solid rounded-lg h-36 md:h-full'>
       <div
-        className='container bg-indigo-500 border-0 border-solid rounded-lg grid grid-cols-3 grid-rows-1 py-4 h-2/3
+        className='container bg-indigo-700 border-0 border-solid rounded-lg grid grid-cols-3 grid-rows-1 py-4 h-2/3
             items-center justify-center md:grid-cols-1 md:grid-rows-2'
       >
         <img
@@ -21,23 +21,23 @@ export const NavBar = ({ timeframe, onTimeFrameChange }: NavBarProps) => {
           className='rounded-full h-14 w-14 border-solid border-2 border-white ml-8 md:ml-4'
         />
         <div className='flex flex-col text-left md:pl-4 col-span-2'>
-          <p className='text-xs text-gray-300'>Report for</p>
+          <p className='text-xs text-white'>Report for</p>
           <div className='flex flex-row gap-x-1 text-xl md:text-2xl md:flex-col'>
-            <p>Jeremy</p>
-            <p>Robson</p>
+            <p className='text-white'>Jeremy</p>
+            <p className='text-white'>Robson</p>
           </div>
         </div>
       </div>
       <div className='container text-xs grid grid-rows-1 grid-cols-3 md:grid-cols-1 md:grid-rows-3 pt-4'>
-        {timeframes.map((timeFrame) => (
+        {timeframes.map((tf) => (
           <button
-            key={timeFrame}
-            onClick={() => onTimeFrameChange(timeFrame)}
-            aria-pressed={timeframe === timeFrame}
+            key={tf}
+            onClick={() => onTimeFrameChange(tf)}
+            aria-pressed={timeframe === tf}
             className={`capitalize md:py-1 pl-5 pr-5 text-left cursor-pointer hover:text-white
-    ${timeframe === timeFrame ? "text-white" : "text-indigo-400"}`}
+    ${timeframe === tf ? "text-white" : "text-indigo-200"}`}
           >
-            {timeFrame}
+            {tf}
           </button>
         ))}
       </div>
